@@ -31,7 +31,7 @@ use czechpmdevs\multiworld\generator\void\VoidGenerator;
 use czechpmdevs\multiworld\util\ConfigManager;
 use czechpmdevs\multiworld\util\LanguageManager;
 use muqsit\vanillagenerator\generator\nether\NetherGenerator;
-use muqsit\vanillagenerator\generator\overworld\OverworldGenerator;
+use czechpmdevs\multiworld\generator\\overworld\OverworldGenerator;
 use pocketmine\command\Command;
 use pocketmine\plugin\PluginBase;
 use pocketmine\world\generator\GeneratorManager;
