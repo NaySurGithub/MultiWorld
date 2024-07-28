@@ -21,7 +21,8 @@
 
 declare(strict_types=1);
 
-namespace ;
+namespace czechpmdevs\multiworld\generator\overworld;
+
 
 use pocketmine\block\VanillaBlocks;
 use pocketmine\data\bedrock\BiomeIds;
