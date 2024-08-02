@@ -111,7 +111,6 @@ class OverworldGenerator extends Generator{
 		$stone = VanillaBlocks::STONE();
 		$ores->setOreTypes([
 			new OreType(VanillaBlocks::COAL_ORE(), $stone, 20, 16, 0, 128),
-			new OreType(VanillaBlocks::DIAMOND(), $stone, 20, 32, 0, 128),
 			new OreType(VanillaBlocks::IRON_ORE(), $stone, 20, 8, 0, 64),
 			new OreType(VanillaBlocks::REDSTONE_ORE(), $stone, 8, 7, 0, 16),
 			new OreType(VanillaBlocks::LAPIS_LAZULI_ORE(), $stone, 1, 6, 0, 32),
@@ -119,7 +118,7 @@ class OverworldGenerator extends Generator{
 			new OreType(VanillaBlocks::DIAMOND_ORE(), $stone, 1, 7, 0, 16),
 			new OreType(VanillaBlocks::DIRT(), $stone, 20, 32, 0, 128),
 			new OreType(VanillaBlocks::GRAVEL(), $stone, 10, 16, 0, 128),
-			new OreType(CustomiesBlockFactory::getInstance()->get("mizeria:azurium_ore"), $stone, 1, 5, 0, 16)
+			new OreType(CustomiesBlockFactory::getInstance()->get("mizeria:azurium_ore"), $stone, 2, 6, 0, 16)
 		]);		
 		$this->populators[] = $ores;
 	}
